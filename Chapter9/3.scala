@@ -1,0 +1,1 @@
+for (word <- scala.io.Source.fromFile("foo.txt").mkString.split("\\s+") if word.length > 12) println(word)
