@@ -6,7 +6,6 @@
 - `T : M` means `M[T]` needed.
 - `T : Manifest` means `Array[T]` needed.
 
-
 - `(implicit ev: T =:= U)` means `T` is `U`.
 - `(implicit ev: T <:< U)` means `T extends U` exists.
 - `(implicit ev: T <%< U)` means
